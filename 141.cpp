@@ -13,7 +13,7 @@ struct ListNode
 bool hasCycle(ListNode *head){
 if (head == NULL)
 {
-	return head;
+	return false;
 }
 while(head->next != NULL){
    if (head->val != INT_MAX)
